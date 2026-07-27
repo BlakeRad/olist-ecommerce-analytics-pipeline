@@ -73,6 +73,5 @@ olist-ecommerce-analytics-pipeline/
 ├── customer_value_by_state.png
 ├── review_score_by_category.png
 ├── dashboard_overview.png
-└── tableau/
-    └── Book1.twb
+└── olist_dashboard.twb
 ```
