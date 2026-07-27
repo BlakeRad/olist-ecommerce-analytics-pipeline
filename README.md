@@ -52,16 +52,6 @@ Raw CSVs aren't included in this repo. To run this yourself, download the datase
 **Combined Dashboard**
 ![Dashboard Overview](dashboard_overview.png)
 
-## What I'd Add With More Time
-
-- A repeat purchase / retention analysis using `customer_unique_id`
-- Breaking delivery delay down further — is it carrier handoff time or last-mile delivery that's driving the lateness? (Both timestamps exist in `orders`.)
-- Publishing the dashboard live on Tableau Public instead of just screenshots
-
-## About Me
-
-I'm a rising senior CS major (Math minor) at USD, graduating May 2027. I built this project as part of my portfolio ahead of fall recruiting for entry-level data/business analytics roles.
-
 ## Project Structure
 
 ```
