@@ -41,16 +41,16 @@ Raw CSVs aren't included in this repo. To run this yourself, download the datase
 ## Visualizations
 
 **Late Delivery Rate by State**
-![Late Delivery Rate by State](screenshots/delivery_delay_by_state.png)
+![Late Delivery Rate by State](delivery_delay_by_state.png)
 
 **Average Revenue per Customer by State**
-![Average Revenue per Customer by State](screenshots/customer_value_by_state.png)
+![Average Revenue per Customer by State](customer_value_by_state.png)
 
 **Average Review Score by Product Category**
-![Average Review Score by Product Category](screenshots/review_score_by_category.png)
+![Average Review Score by Product Category](review_score_by_category.png)
 
 **Combined Dashboard**
-![Dashboard Overview](screenshots/dashboard_overview.png)
+![Dashboard Overview](dashboard_overview.png)
 
 ## What I'd Add With More Time
 
@@ -58,14 +58,22 @@ Raw CSVs aren't included in this repo. To run this yourself, download the datase
 - Breaking delivery delay down further — is it carrier handoff time or last-mile delivery that's driving the lateness? (Both timestamps exist in `orders`.)
 - Publishing the dashboard live on Tableau Public instead of just screenshots
 
+## About Me
+
+I'm a rising senior CS major (Math minor) at USD, graduating May 2027. I built this project as part of my portfolio ahead of fall recruiting for entry-level data/business analytics roles.
+
 ## Project Structure
 
 ```
 olist-ecommerce-analytics-pipeline/
 ├── README.md
+├── LICENSE
 ├── notebooks/
 │   └── 01_explore_data.ipynb
-├── screenshots/
+├── delivery_delay_by_state.png
+├── customer_value_by_state.png
+├── review_score_by_category.png
+├── dashboard_overview.png
 └── tableau/
     └── Book1.twb
 ```
