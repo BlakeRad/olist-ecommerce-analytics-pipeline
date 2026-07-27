@@ -16,7 +16,7 @@ I built this project to round out my portfolio with SQL and data engineering wor
 - **Several of the worst-performing states for delivery are also among the highest in average revenue per customer** (AL, PI, MA all show up on both lists). That's a real business finding, not just a service issue — these are high-value customers being underserved, so fixing logistics there is also a retention play.
 - **`office_furniture` is a consistent, high-volume underperformer on reviews** — 3.49 average across 1,687 reviews, which is a large enough sample to trust. A few other furniture categories show the same pattern, which made me think the issue is more likely shipping damage or assembly difficulty than a one-off.
 
-Full SQL queries and analysis are in the notebook: [`notebooks/01_explore_data.ipynb`](notebooks/01_explore_data.ipynb)
+Full SQL queries and analysis are in the notebook: [`01_explore_data.ipynb`](01_explore_data.ipynb)
 
 ## Dataset
 
@@ -68,8 +68,7 @@ I'm a rising senior CS major (Math minor) at USD, graduating May 2027. I built t
 olist-ecommerce-analytics-pipeline/
 ├── README.md
 ├── LICENSE
-├── notebooks/
-│   └── 01_explore_data.ipynb
+├── 01_explore_data.ipynb
 ├── delivery_delay_by_state.png
 ├── customer_value_by_state.png
 ├── review_score_by_category.png
