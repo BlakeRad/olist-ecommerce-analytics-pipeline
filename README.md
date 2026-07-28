@@ -1,6 +1,6 @@
 # Olist E-Commerce Analytics Pipeline
 
-An end-to-end SQL + Python project using the Olist Brazilian E-Commerce dataset (~100K orders across 9 relational tables). I cleaned and modeled the data in Pandas, loaded it into a SQLite database, wrote multi-table SQL queries to dig into real business questions, and built a Tableau dashboard to visualize the results.
+SQL + Python project using the Olist Brazilian E-Commerce dataset (~100K orders across 9 relational tables). I cleaned and modeled the data in Pandas, loaded it into a SQLite database, wrote multi-table SQL queries to dig into real business questions, and built a Tableau dashboard to visualize the results.
 
 I built this project to round out my portfolio with SQL and data engineering work — my other projects lean more ML-heavy, so I wanted something that showed relational data modeling and business-facing analysis instead.
 
